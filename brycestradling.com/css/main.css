@@ -1,0 +1,223 @@
+/* Section Styles */
+
+
+/* Hero
+---------------------------------------------*/
+
+.hero {
+    padding: 5rem 0rem;  
+    background: url('../img/Seasons-blend.png') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+
+}
+
+#hero-logo {
+ fill: white;
+ width: 65%
+}
+
+.hero h1 {
+    color: white;
+    font-size: 15rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* nav
+--------------------------------------------*/
+
+.nav {
+    background: #323232;  
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+nav {
+    padding: 1.5rem 0rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-bottom: 0rem;
+}
+
+nav ul li {
+    display: inline;
+    padding-right: 2rem;
+}
+
+nav ul li a{
+    margin-top: 1rem;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.resToggle {
+  color: white;
+  display: none;
+  height: 100%;
+  font-size: 2rem;
+  border-radius: 0px;
+  background: none;
+  border: none;
+  margin: 0px;
+  padding: 0.8rem;
+}
+
+.resToggle:hover {
+    color: white;
+    background: #555;
+}
+
+
+/* About 
+------------------------------- */
+.about {
+    margin-top: 4rem;
+}
+
+.about p {
+    max-width: 60%;
+    display: block;
+    margin: 0 auto 4rem auto;
+    text-align: center;
+}
+
+.mug {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.bullet {
+    text-align: center;
+    font-size: 5rem;
+    line-height: 15rem;
+    border: 3px solid black;
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+    color: black;
+    text-shadow: 2px 2px 5px black;
+}
+
+.bullet-point{
+    padding-top: 2rem;
+    font-size: 1.2rem;
+}
+
+/* Work
+------------------------------- */
+.work {
+    margin: 4rem 0rem;
+}
+
+.art {
+    margin-bottom: 4%;
+}
+
+#gallery figcaption {
+ display: none;
+}
+
+ .thumb-unit{
+         display: block;
+         background-color: pink;
+         background-image: url('/img/Seasons-blend.png');
+         background-repeat: no-repeat;
+         background-position: center center;
+         background-size: cover;
+         padding-bottom: 20rem;
+         width: 100%;
+         margin: 4%;
+         position: relative;
+         overflow: hidden;
+         color: white;
+     }
+     .thumb-unite strong{
+          padding-top: 2.5rem;
+     }
+     .thumb-overlay{
+          position: absolute;
+          top: 100%;
+          left: 0px;
+          right: 0px;
+          height: 100%;
+          background-color: rgba(255,0,255, 0.7);
+          -webkit-transition: all .5s ease-in-out;
+          -moz-transition: all .5s ease-in-out;
+          -ms-transition: all .5s ease-in-out;
+          -o-transition: all .5s ease-in-out;
+          transition: all .5s ease-in-out;
+     }
+     .thumb-unit:hover
+     .thumb-overlay{
+         position: absolute;
+         top: 0%;
+         bottom: 0px;
+         left: 0px;
+         right: 0px; 
+         color: white;
+     }
+  
+
+/* Video Embed Code
+--------------------------------*/
+
+.embed-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        margin-bottom: 4%;
+    }
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+/* Footer
+------------------------------ */
+
+footer {
+    padding-top: 1rem;
+    background: #323232;
+    color: white;
+}
+.socials {
+    list-style-type: none;
+}
+.socials li{
+    display: inline;
+    padding: 1rem;
+}
+
+.socials li a {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+/* @ Meidas
+------------------------------*/
+
+@media (max-width: 550px) {
+ .resToggle {
+     display: inline;
+ } 
+nav {
+    display: none;
+}
+
+}
