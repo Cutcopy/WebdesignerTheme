@@ -11,14 +11,10 @@ section h2{
 --------------------------------------------*/
 
 .nav {
-    background: #323232;
+    background: rgba(255, 255, 255, 0.8);
     position: fixed;
     z-index: 2;
-    //top: 0rem;
     width: 100%;
-}
-
-nav {
     padding: 1.5rem 0rem;
 }
 
@@ -32,16 +28,24 @@ nav ul li {
     padding-right: 2rem;
 }
 
+#nav-logo {
+    width: 3rem;
+    fill: #222;
+    position: relative;
+    top: 0.5rem;
+}
+
 nav ul li a{
+    color: #222;
     margin-top: 1rem;
-    color: white;
+    font-size: 2rem;
     font-weight: bold;
     text-transform: capitalize;
     text-decoration: none;
 }
 
 .resToggle {
-  color: white;
+  color: #222;
   display: none;
   height: 100%;
   font-size: 2rem;
@@ -53,8 +57,11 @@ nav ul li a{
 }
 
 .resToggle:hover {
-    color: white;
-    background: #555;
+    //color: #222;
+}
+
+.active ul li{
+    display: block;
 }
 
 
@@ -237,13 +244,16 @@ footer {
     color: white;
 }
 
-footer textarea {
+footer textarea, input {
     height: 30vh;
+    color: #222;
 }
 
 footer input[type="submit"]{
     width: 100%;
     font-size: 2rem;
+    height: 5rem;
+    line-height: 5rem;
     text-shadow: 2px 2px 5px #1F8CAE;
     border: 5px solid #1F8CAE;
 }
@@ -276,8 +286,14 @@ nav {
     display: none;
 }
 
+#nav-logo{
+    display: none;
+}
+
 .socials li a{
    font-size: 3rem;
 }
-
+.active{
+    display: block;
+}
 }

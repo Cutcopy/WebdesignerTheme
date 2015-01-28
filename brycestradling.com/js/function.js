@@ -49,29 +49,46 @@ $(".title").fitText(1.2, { minFontSize: '25px', maxFontSize: '150px' })
 			}
 		}
 	});
-
+//Poptrox
 	var foo = $('#gallery');
 	foo.poptrox();
-});
-/*
+
+
 // Fixed Nav
-jQuery(document).ready(function ($) {
+
 	$(window).scroll(function(){
-		var scrollTop = 670;
+		var scrollTop = 800;
 		if($(window).scrollTop() >= scrollTop){
 			$('.nav').css({
-				position : 'fixed',
+				background : '#323232',
 				top : '0'
+			});
+
+			$('nav a').css({
+				color : 'white'
+			});
+
+			$('#nav-logo').css({
+				fill : 'white'
+			});
+
+			$('.resToggle').css({
+				color : 'white'
 			});
 		}
 		if($(window).scrollTop() < scrollTop){
-			$('.nav').removeAttr('style');	
+			$('.nav').removeAttr('style');
+			$('nav a').removeAttr('style');	
+			$('#nav-logo').removeAttr('style');	
+			$('.resToggle').removeAttr('style');	
 		}
 	});
 
 //Responsive Navs
 $('.resToggle').click(function(){
-  $('.nav').toggleClass('active');
+  $('nav').toggleClass('active');
  });
+
+
+
 });
-*/
