@@ -244,6 +244,10 @@ footer {
     color: white;
 }
 
+footer h2{
+    padding-top: 6.3rem;
+}
+
 footer textarea, input {
     height: 30vh;
     color: #222;
@@ -296,4 +300,9 @@ nav {
 .active{
     display: block;
 }
+
+footer h2{
+    padding-top: 3rem;
+}
+
 }
