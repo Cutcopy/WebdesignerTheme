@@ -5,7 +5,8 @@
 ---------------------------------------------*/
 
 .hero {
-    padding: 5rem 0rem;  
+    padding: 5rem 0rem;
+    height: 100vh;
     background: url('../img/Seasons-blend.png') no-repeat center center;
     background-size: cover;
     text-align: center;
@@ -13,8 +14,9 @@
 }
 
 #hero-logo {
- fill: white;
- width: 65%
+    fill: white;
+    width: 60%;
+    padding-top: 4rem;
 }
 
 .hero h1 {
@@ -24,13 +26,14 @@
     text-align: center;
 }
 
-/* nav
+/* na
 --------------------------------------------*/
 
 .nav {
-    background: #323232;  
-    position: absolute;
+    background: #323232;
+    position: fixed;
     z-index: 2;
+    //top: 0rem;
     width: 100%;
 }
 
@@ -76,10 +79,10 @@ nav ul li a{
 
 /* About 
 ------------------------------- */
-.about {
-    margin-top: 4rem;
-}
 
+.about h2(
+    padding-top: 4rem;
+)
 .about p {
     max-width: 60%;
     display: block;

@@ -50,7 +50,7 @@ $(".title").fitText(1.2, { minFontSize: '25px', maxFontSize: '150px' })
 		}
 	});
 });
-
+/*
 // Fixed Nav
 jQuery(document).ready(function ($) {
 	$(window).scroll(function(){
@@ -69,6 +69,6 @@ jQuery(document).ready(function ($) {
 //Responsive Navs
 $('.resToggle').click(function(){
   $('.nav').toggleClass('active');
+ });
 });
-
-});
+*/
