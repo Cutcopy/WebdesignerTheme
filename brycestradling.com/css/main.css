@@ -1,32 +1,13 @@
 /* Section Styles */
 
-
-/* Hero
----------------------------------------------*/
-
-.hero {
-    padding: 5rem 0rem;
-    height: 100vh;
-    background: url('../img/Seasons-blend.png') no-repeat center center;
-    background-size: cover;
-    text-align: center;
-
+section{
+    //height: 90vh;
 }
-
-#hero-logo {
-    fill: white;
-    width: 60%;
+section h2{
     padding-top: 4rem;
 }
 
-.hero h1 {
-    color: white;
-    font-size: 15rem;
-    font-weight: bold;
-    text-align: center;
-}
-
-/* na
+/* Nav
 --------------------------------------------*/
 
 .nav {
@@ -77,17 +58,49 @@ nav ul li a{
 }
 
 
+/* Hero
+---------------------------------------------*/
+
+.hero {
+    padding: 5rem 0rem;
+    height: 100vh;
+    background: url('../img/Seasons-blend.png') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+
+}
+
+#hero-logo {
+    fill: white;
+    width: 60%;
+    padding-top: 15rem;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 15rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
 /* About 
 ------------------------------- */
 
-.about h2(
-    padding-top: 4rem;
-)
+
 .about p {
-    max-width: 60%;
     display: block;
     margin: 0 auto 4rem auto;
     text-align: center;
+}
+
+.about .four{
+    text-align: center;
+}
+
+.about ul {
+    margin-top: 2rem;
 }
 
 .mug {
@@ -98,21 +111,34 @@ nav ul li a{
 }
 
 .bullet {
-    text-align: center;
     font-size: 5rem;
-    line-height: 15rem;
     border: 3px solid black;
     border-radius: 50%;
-    height: 7rem;
-    width: 7rem;
-    color: black;
-    text-shadow: 2px 2px 5px black;
+    height: 12rem;
+    width: 12rem;
+    color: white;
+    text-shadow: 2px 2px 5px #1F8CAE;
+    margin: 2rem auto;
+    background-color: #1EAEDB;
+}
+
+.bullet i {
+    position: relative;
+    top: 3.5rem;
+    
 }
 
 .bullet-point{
-    padding-top: 2rem;
-    font-size: 1.2rem;
+    font-size: 2rem;
+    font-weight: bold; 
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #1EAEDB;
+    border-radius: 3px;  
 }
+
+
+
+
 
 /* Work
 ------------------------------- */
@@ -195,6 +221,8 @@ nav ul li a{
 ------------------------------ */
 
 footer {
+    width: 100%;
+    height: 30vh;
     padding-top: 1rem;
     background: #323232;
     color: white;
