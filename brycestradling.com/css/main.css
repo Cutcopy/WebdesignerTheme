@@ -112,19 +112,29 @@ nav ul li a{
 
 .bullet {
     font-size: 5rem;
-    border: 3px solid black;
+    border: 3px solid #1F8CAE;
     border-radius: 50%;
     height: 12rem;
     width: 12rem;
     color: white;
     text-shadow: 2px 2px 5px #1F8CAE;
     margin: 2rem auto;
-    background-color: #1EAEDB;
+    background-color: #33C3F0;
+    overflow: hidden;
 }
 
 .bullet i {
     position: relative;
     top: 3.5rem;
+ text-shadow: rgb(10, 142, 175) 1px 1px,
+    rgb(10, 142, 175) 2px 2px,
+    rgb(10, 142, 175) 3px 3px,
+    rgb(10, 142, 175) 4px 4px,
+    rgb(10, 143, 176) 5px 5px,
+    rgb(10, 144, 177) 6px 6px,
+    rgb(10, 144, 178) 7px 7px,
+    rgb(10, 145, 179) 8px 8px,
+    rgb(10, 146, 179) 9px 9px;
     
 }
 
@@ -222,22 +232,37 @@ nav ul li a{
 
 footer {
     width: 100%;
-    height: 30vh;
     padding-top: 1rem;
     background: #323232;
     color: white;
 }
+
+footer textarea {
+    height: 30vh;
+}
+
+footer input[type="submit"]{
+    width: 100%;
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px #1F8CAE;
+    border: 5px solid #1F8CAE;
+}
+
 .socials {
     list-style-type: none;
 }
 .socials li{
     display: inline;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .socials li a {
-    font-size: 2rem;
+    font-size: 4rem;
     text-decoration: none;
+}
+
+.contact-info {
+    font-size: 2rem;
 }
 
 /* @ Meidas
@@ -249,6 +274,10 @@ footer {
  } 
 nav {
     display: none;
+}
+
+.socials li a{
+   font-size: 3rem;
 }
 
 }

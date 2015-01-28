@@ -49,6 +49,9 @@ $(".title").fitText(1.2, { minFontSize: '25px', maxFontSize: '150px' })
 			}
 		}
 	});
+
+	var foo = $('#gallery');
+	foo.poptrox();
 });
 /*
 // Fixed Nav
