@@ -204,7 +204,7 @@ nav ul li a{
           margin: 0 auto;
           text-align: center;
           line-height: 20rem;
-          background-color: rgba(255,0,255, 0.7);
+          background-color: rgba(0,176,255, 0.7);
           -webkit-transition: all .5s ease-in-out;
           -moz-transition: all .5s ease-in-out;
           -ms-transition: all .5s ease-in-out;
@@ -232,13 +232,13 @@ nav ul li a{
          background-image: url('/img/joe_blow.png');
      }
      #four {
-         background-image: url('/img/ken_pozek.png');     
+         background-image: url('/img/ken_pozek.png');   
      }
      #five {
          background-image: url('/img/meighan.png');     
      }
     #six {
-        background-image: url('/img/meighan.png');
+        background-image: url('/img/dream_cove.png');
     }
     #seven {
         background-image: url('/img/thrillz.png');
@@ -247,64 +247,68 @@ nav ul li a{
         background-image: url('/img/olea.png');
     }
     #nine {
-        background-image: url('/img/olea.png');
+        background-image: url('/img/Janke_blogheader.jpg');
+        background-position: center left;
     }
 
     #ten {
-        background-image: url('/img/olea.png');
+        background-image: url('/img/potty_talk.png');
     }
     #eleven {
-        background-image: url('/img/olea.png');
+        background-image: url('/img/vyral_logo.png');
     }
     #twelve {
-        background-image: url('/img/olea.png');
+        background-image: url('/img/weddinginvite.png');
+        background-size: 170%;
+        background-position: top left;
     }
     #thirteen {
-        background-image: url('/img/olea.png');
+        background-image: url('/img/lars_blog(rebrand).png');
+        background-position: top left;
     }
     #fourteen {
         background-image: url('/img/olea.png');
     }
     #fifteen {
-        background-image: url('/img/olea.png');
+        background-image: url('/img/blog_headers.png');
     }
      #sixteen {
-        background-image: url('/img/portfolio/Illustration/Will_representation.jpg');
+        background-image: url('/img/Will_representation.jpg');
 
      }
     
     #seventeen {
-         background-image: url('/img/portfolio/Illustration/Portal.jpg');
+         background-image: url('/img/Portal.jpg');
      }
 
     #eighteen {
-         background-image: url('/img/portfolio/Illustration/Slender.jpg');
+         background-image: url('/img/Slender.jpg');
      }
 
     #nineteen {
-         background-image: url('/img/portfolio/Illustration/ninja_turtle.jpg');
+         background-image: url('/img/ninja_turtle.jpg');
      }
 
      #twenty {
-         background-image: url('/img/portfolio/Illustration/Rainbow_hair.jpg');
+         background-image: url('/img/Rainbow_hair.jpg');
      }
 
     #twenty-one {
-         background-image: url('/img/portfolio/Illustration/waves.jpg');
+         background-image: url('/img/waves.jpg');
          background-position: top right;
      }
 
      #twenty-two {
-        background-image: url('/img/portfolio/Illustration/gun_show.jpg');
+        background-image: url('/img/ivan_booze.png');
      }
   
      #twenty-three {
-        background-image: url('/img/portfolio/Illustration/Trainspotting.jpg');
+        background-image: url('/img/Trainspotting.jpg');
         background-position: center left;
      }
 
      #twenty-four {
-        background-image: url('/img/portfolio/Illustration/gridluv.jpg');
+        background-image: url('/img/gridluv.jpg');
      }
 
 /* Video Embed Code
