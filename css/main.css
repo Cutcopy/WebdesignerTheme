@@ -189,8 +189,11 @@ nav ul li a{
          color: white;
          box-shadow: 2px 2px 5px black;
      }
-     .thumb-unite strong{
+     .thumb-overlay strong{
           padding-top: 2.5rem;
+          text-align: center;
+      
+
      }
      .thumb-overlay{
           position: absolute;
@@ -199,6 +202,8 @@ nav ul li a{
           right: 0px;
           height: 100%;
           margin: 0 auto;
+          text-align: center;
+          line-height: 20rem;
           background-color: rgba(255,0,255, 0.7);
           -webkit-transition: all .5s ease-in-out;
           -moz-transition: all .5s ease-in-out;
