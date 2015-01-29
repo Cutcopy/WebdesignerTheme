@@ -8,6 +8,18 @@
     <meta name="description" content="Jimble-jamble.">
     <meta name="author" content="Bryce">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta itemprop="name" content="Bryce Stradling">
+    <meta itemprop="description" content="Local Designer, Developer, and animator.">
+    <meta itemprop="image" content="/img/bryce_logo.svg">
+
+  <!-- Twiiter card
+  ----------------------------------------------------- --> 
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@losslessdesign" />
+    <meta name="twitter:title" content="Awesome Graphic Designer and Artist" />
+    <meta name="twitter:description" content="View the his portfolio." />
+    <meta name="twitter:image" content="/img/bryce_logo.svg" />
+    <meta name="twitter:url" content="https://brycestradling.com" />
 
     <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -15,9 +27,7 @@
 
     <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton-min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/css/style-min.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 
@@ -26,7 +36,7 @@
     <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
 
-<body name="home">
+<body name="home" itemscope itemtype="http://schema.org/ProfessionalService">
 
     <!-- Nav
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -65,7 +75,7 @@
         <div class="container" id="hero-image">
             <div class="row">
                 <div class="twelve columns">
-                    <svg id="hero-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 500">
+                    <svg id="hero-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 500" itemprop="logo">
                         <path d="M495.3 428c2 0 3.5-1.1 4.5-3.3 1-2.2 1.5-4.3 1.5-6.3s-.5-4.1-1.5-6.3-2.5-3.3-4.5-3.3h-149l-45-67.9h194c21.3 0 38.9 6.4 52.9 19.2 14 12.8 21 32.3 21 58.2 0 26-7 45.4-21 58.3-14 12.8-31.7 19.2-52.9 19.2H299.1V428h196.2zM278.9 341.8l44.9 68.5H74.7c-21.5 0-39.3-6.5-53.5-19.4C7.1 377.9 0 358.3 0 332c0-26.3 7.1-45.9 21.2-58.8 14.2-12.9 32-19.4 53.5-19.4h200v68.6h-200c-2 0-3.6 1.1-4.6 3.3-1 2.2-1.5 4.3-1.5 6.4 0 2 .5 4.2 1.5 6.4s2.5 3.3 4.6 3.3h204.2z" />
                         <g>
                             <path d="M495.3 87.1c2 0 3.5-1.1 4.5-3.3 1-2.2 1.5-4.3 1.5-6.3s-.5-4.1-1.5-6.3-2.5-3.3-4.5-3.3h-198V0h198c21.3 0 38.9 6.4 52.9 19.2 14 12.8 21 32.3 21 58.3s-7 45.4-21 58.2c-14 12.8-31.7 19.2-52.9 19.2h-198V87.1h198zM297.3 323.6v-67.9h198c2 0 3.5-1.1 4.5-3.3 1-2.2 1.5-4.3 1.5-6.3s-.5-4.1-1.5-6.3-2.5-3.3-4.5-3.3h-198v-67.9h198c21.3 0 38.9 6.4 52.9 19.2 14 12.8 21 32.3 21 58.2 0 26-7 45.4-21 58.3-14 12.8-31.7 19.2-52.9 19.2h-198z" />
@@ -82,8 +92,8 @@
             <div class="row">
                 <div class="twelve columns">
                     <h2>About</h2>
-                    <img src="https://media.licdn.com/mpr/mpr/shrink_200_200/p/8/005/08f/3ff/2f3b5f0.jpg" class="mug">
-                    <p>Bryce Stradling is a graphic designer, developer, artist and musician living in Omaha, Nebraska. He received his degree in Graphic Design from the Creative Center, a professional graphic design school, and has extensive freelance experience in visual design, interaction design, illustration and animation for a variety of clients. In addition to his design work, Bryce enjoys writing and recording music, biking, writing and studying philosophy.</p>
+                    <img src="https://media.licdn.com/mpr/mpr/shrink_200_200/p/8/005/08f/3ff/2f3b5f0.jpg" class="mug" itemprop="image">
+                    <p>Bryce Stradling is a graphic designer, developer, artist and musician living in Omaha, Nebraska. He received his degree in Graphic Design from the Creative Center, a professional <span itemprop="seeks">graphic design school</span>, and has extensive freelance experience in visual design, interaction design, illustration and animation for a variety of clients. In addition to his design work, Bryce enjoys writing and recording music, biking, writing and studying philosophy.</p>
                 </div>
             </div>
             <div class="row">
@@ -128,7 +138,7 @@
                      <a href="http://vimeo.com/76120098" data-poptrox="vimeo,800x480" class="thumb-unit" id="one">
                                <div class="thumb-overlay">
                                <strong>EIC Bumper</strong>
-                               <div class="zoom-icon"></div>
+                               <div class="fa fa-search-plus"></div>
                                </div>
                            </a>
                 </div>
@@ -136,7 +146,7 @@
                        <a href="http://vimeo.com/98557721" data-poptrox="vimeo,800x480" class="thumb-unit" id="two">
                            <div class="thumb-overlay">
                            <strong>Kathy Stone Intro</strong>
-                           <div class="zoom-icon"></div>
+                           <div class="fa fa-search-plus"></div>
                            </div>
                        </a>
                 </div>
@@ -144,7 +154,7 @@
                        <a href="http://vimeo.com/98555161" data-poptrox="vimeo,800x480" class="thumb-unit" id="three">
                            <div class="thumb-overlay">
                            <strong>Fun with lower-thirds</strong>
-                           <div class="zoom-icon"></div>
+                           <div class="fa fa-search-plus"></div>
                            </div>
                        </a>
                 </div>
@@ -152,7 +162,7 @@
                       <a href="http://vimeo.com/98555165" data-poptrox="vimeo,800x480" class="thumb-unit" id="four">
                            <div class="thumb-overlay">
                            <strong>Ken Pozek Intro</strong>
-                           <div class="zoom-icon"></div>
+                           <div class="fa fa-search-plus"></div>
                            </div>
                        </a>
                 </div>
@@ -164,7 +174,7 @@
                        <a href="http://vimeo.com/69131478" data-poptrox="vimeo,800x480" class="thumb-unit" id="five">
                            <div class="thumb-overlay">
                            <strong>Meighan Multimedia Intro</strong>
-                           <div class="zoom-icon"></div>
+                           <div class="fa fa-search-plus"></div>
                            </div>
                        </a>
                 </div>
@@ -172,7 +182,7 @@
                           <a href="http://vimeo.com/38209422" data-poptrox="vimeo,800x480" class="thumb-unit" id="six">
                            <div class="thumb-overlay">
                            <strong>Dream Cove Music Video</strong>
-                           <div class="zoom-icon"></div>
+                           <div class="fa fa-search-plus"></div>
                            </div>
                        </a>
                 </div>
@@ -180,7 +190,7 @@
                      <a href="http://vimeo.com/8847152" data-poptrox="vimeo,800x480" class="thumb-unit" id="seven">
                            <div class="thumb-overlay">
                            <strong>Thrillz Drink Music Video</strong>
-                           <div class="zoom-icon"></div>
+                           <div class="fa fa-search-plus"></div>
                            </div>
                        </a>
                 </div>
@@ -188,7 +198,7 @@
                     <a href="http://vimeo.com/68871416" data-poptrox="vimeo,800x480" class="thumb-unit" id="eight">
                            <div class="thumb-overlay">
                            <strong>Daydream on Olea experiment</strong>
-                           <div class="zoom-icon"></div>
+                           <div class="fa fa-search-plus"></div>
                            </div>
                        </a>
                 </div>
@@ -202,7 +212,7 @@
                        <a href="/img/janke_blog.png" class="thumb-unit" id="nine">
                            <div class="thumb-overlay">
                            <strong>Utah Crib's Video Blog</strong>
-                           <div class="zoom-icon"></div>
+                           <div class="fa fa-search-plus"></div>
                            </div>
                        </a>
                     </div>
@@ -210,7 +220,7 @@
                        <a href="/img/Potty-talk-full.png" class="thumb-unit" id="ten">
                            <div class="thumb-overlay">
                            <strong>Potty Talk, logo and blog</strong>
-                           <div class="zoom-icon"></div>
+                           <div class="fa fa-search-plus"></div>
                            </div>
                        </a>
                     </div>
@@ -218,7 +228,7 @@
                        <a href="/img/vyral_homepage.png" class="thumb-unit" id="eleven">
                            <div class="thumb-overlay">
                            <strong>New Vyral Website</strong>
-                           <div class="zoom-icon"></div>
+                           <div class="fa fa-search-plus"></div>
                            </div>
                        </a>
                     </div>
@@ -226,7 +236,7 @@
                        <a href="/img/weddinginvite.png" class="thumb-unit" id="twelve">
                            <div class="thumb-overlay">
                            <strong>Wedding Invitation</strong>
-                           <div class="zoom-icon"></div>
+                           <div class="fa fa-search-plus"></div>
                            </div>
                        </a>
                     </div>
@@ -238,7 +248,7 @@
                            <a href="/img/lars_G+(rebrand).jpg" class="thumb-unit" id="thirteen">
                                <div class="thumb-overlay">
                                <strong>Lars Hedenborg rebrand</strong>
-                               <div class="zoom-icon"></div>
+                               <div class="fa fa-search-plus"></div>
                                </div>
                            </a>
                         </div>
@@ -246,7 +256,7 @@
                            <a href="/img/logos.jpg" class="thumb-unit" id="fourteen">
                                <div class="thumb-overlay">
                                <strong>Logos</strong>
-                               <div class="fa fa-zoom-icon"></div>
+                               <i class="fa fa-search-plus"></i>
                                </div>
                            </a>
                         </div>
@@ -254,7 +264,7 @@
                            <a href="/img/blog_headers.png" class="thumb-unit" id="fifteen">
                                <div class="thumb-overlay">
                                <strong>Blog headers!</strong>
-                               <div class="zoom-icon"></div>
+                               <div class="fa fa-search-plus"></div>
                                </div>
                            </a>
                         </div>
@@ -262,7 +272,7 @@
                            <a href="/img/Will_representation.jpg" class="thumb-unit" id="sixteen">
                                <div class="thumb-overlay">
                                <strong>Book cover porposal</strong>
-                               <div class="zoom-icon"></div>
+                               <div class="fa fa-search-plus"></div>
                                </div>
                            </a>
                         </div>
@@ -276,8 +286,8 @@
                        <div class="three columns">
                            <a href="/img/Portal.jpg" class="thumb-unit" id="seventeen">
                                <div class="thumb-overlay">
-                               <strong>Life in a vaccum</strong>
-                               <div class="zoom-icon"></div>
+                               <strong>Life in a vacuum</strong>
+                               <div class="fa fa-search-plus"></div>
                                </div>
                            </a>
                         </div>
@@ -285,7 +295,7 @@
                            <a href="/img/Slender.jpg" class="thumb-unit" id="eighteen">
                                <div class="thumb-overlay">
                                <strong>Slender</strong>
-                               <div class="zoom-icon"></div>
+                               <div class="fa fa-search-plus"></div>
                                </div>
                            </a>
                         </div>
@@ -293,7 +303,7 @@
                            <a href="/img/ninja_turtle.jpg" class="thumb-unit" id="nineteen">
                                <div class="thumb-overlay">
                                <strong>Old school Leo</strong>
-                               <div class="zoom-icon"></div>
+                               <div class="fa fa-search-plus"></div>
                                </div>
                            </a>
                         </div>
@@ -301,7 +311,7 @@
                            <a href="/img/Rainbow_hair.jpg" class="thumb-unit" id="twenty">
                                <div class="thumb-overlay">
                                <strong>Divide Me</strong>
-                               <div class="zoom-icon"></div>
+                               <div class="fa fa-search-plus"></div>
                                </div>
                            </a>
                         </div>
@@ -313,7 +323,7 @@
                            <a href="/img/waves.jpg" class="thumb-unit" id="twenty-one">
                                <div class="thumb-overlay">
                                <strong>Hang ten</strong>
-                               <div class="zoom-icon"></div>
+                               <div class="fa fa-search-plus"></div>
                                </div>
                            </a>
                         </div>
@@ -321,7 +331,7 @@
                            <a href="img/ivan_booze.png" class="thumb-unit" id="twenty-two">
                                <div class="thumb-overlay">
                                <strong>Leap to your doom!</strong>
-                               <div class="zoom-icon"></div>
+                               <div class="fa fa-search-plus"></div>
                                </div>
                            </a>
                         </div>
@@ -329,7 +339,7 @@
                            <a href="/img/Trainspotting.jpg" class="thumb-unit" id="twenty-three">
                                <div class="thumb-overlay">
                                <strong>Trainspotting poster</strong>
-                               <div class="zoom-icon"></div>
+                               <div class="fa fa-search-plus"></div>
                                </div>
                            </a>
                         </div>
@@ -337,7 +347,7 @@
                            <a href="/img/gridluv.jpg" class="thumb-unit" id="twenty-four">
                                <div class="thumb-overlay">
                                <strong>Grid Luv</strong>
-                               <div class="zoom-icon"></div>
+                               <div class="fa fa-search-plus"></div>
                                </div>
                            </a>
                         </div>
@@ -347,6 +357,7 @@
     <footer name="contact">
         <div class="container">
             <h2>Contact</h2>
+            <h3>Let's connect.</h3>
             <div class="row">
                      <ul class="socials">
                         <li><a href="https://plus.google.com/+BryceStradling/about" target="_blank"><i class="fa fa-google-plus"></i></a>
@@ -361,12 +372,13 @@
                         </li>
                     </ul>
                        <p class="contact-info">
-                        Bryce Stradling
-                        <br>4005 Clifton DR
-                        <br>Omaha, NE 68134
-                        <br>402.415.4753
-                    </p>
+                        <span itemprop="founder">Bryce Stradling</span>
+                        <br><span itemprop="address">4005 Clifton DR
+                        <br>Omaha, NE 68134</span>
+                        <br><a href="tel:402.415.4753" itemprop="telephone">402.415.4753</a>
+                       </p>
             </div>
+
             <div class="row">
                 <div class="twelve columns">
                     <form method="post" action="http://vyralmarketing.com/staticforms/sendEmail.php" onsubmit="return setReturn()">
@@ -403,7 +415,7 @@
     <!-- Scripts ------------------------>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.poptrox.min.js"></script>
-    <script src="js/function.js"></script>
+    <script src="js/function-min.js"></script>
     <script>
     function setReturn(){
      localStorage.setItem("thanks", "Your request was sent successfully!");
@@ -412,7 +424,17 @@
     document.getElementById("thanks").innerHTML = localStorage.getItem("thanks");
     localStorage.clear();
     </script>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+    ga('create', 'UA-59096331-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+    <script src="//load.sumome.com/" data-sumo-site-id="618b53902860c544b4165807708f7a26a8fdab3ee9ad6155e4d31c7644f3434e" async></script>
 </body>
 
 </html>

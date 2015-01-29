@@ -183,7 +183,7 @@ nav ul li a{
          background-size: cover;
          padding-bottom: 20rem;
          width: 100%;
-         margin: 4%;
+         margin-bottom: 4%;
          position: relative;
          overflow: hidden;
          color: white;
@@ -192,9 +192,22 @@ nav ul li a{
      .thumb-overlay strong{
           padding-top: 2.5rem;
           text-align: center;
-      
+         }
 
+     .zoom-icon{
+        background-image: url('/img/zoomin.svg');
+        background-position: center center;
+        background-color: black;
+        background-size: cover;
+        height: 7rem;
+        width: 7rem;
      }
+     
+
+    .fa.fa-search-plus {
+        text-align: center;
+    }
+
      .thumb-overlay{
           position: absolute;
           top: 100%;
@@ -407,7 +420,10 @@ footer h2{
 }
 
 @media (max-width: 400px) {
+    .nav {
+        padding: 1rem 0rem;
+    }
    .socials li a{
-   font-size: 4rem;
+        font-size: 3rem;
   }
 }
