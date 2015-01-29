@@ -16,6 +16,7 @@ section h2{
     z-index: 2;
     width: 100%;
     padding: 1.5rem 0rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
 }
 
 nav ul {
@@ -94,7 +95,9 @@ nav ul li a{
 
 /* About 
 ------------------------------- */
+.about{
 
+}
 
 .about p {
     display: block;
@@ -184,6 +187,7 @@ nav ul li a{
          position: relative;
          overflow: hidden;
          color: white;
+         box-shadow: 2px 2px 5px black;
      }
      .thumb-unite strong{
           padding-top: 2.5rem;
@@ -194,6 +198,7 @@ nav ul li a{
           left: 0px;
           right: 0px;
           height: 100%;
+          margin: 0 auto;
           background-color: rgba(255,0,255, 0.7);
           -webkit-transition: all .5s ease-in-out;
           -moz-transition: all .5s ease-in-out;
@@ -210,7 +215,44 @@ nav ul li a{
          right: 0px; 
          color: white;
      }
+     #sixteen {
+        background-image: url('/img/portfolio/illustration/will_representation.jpg');
+
+     }
+    
+    #seventeen {
+         background-image: url('/img/portfolio/illustration/Portal.jpg');
+     }
+
+    #eighteen {
+         background-image: url('/img/portfolio/illustration/Slender.jpg');
+     }
+
+    #nineteen {
+         background-image: url('/img/portfolio/illustration/ninja_turtle.jpg');
+     }
+
+     #twenty {
+         background-image: url('/img/portfolio/illustration/rainbow_hair.jpg');
+     }
+
+    #twenty-one {
+         background-image: url('/img/portfolio/illustration/waves.jpg');
+         background-position: top right;
+     }
+
+     #twenty-two {
+        background-image: url('/img/portfolio/illustration/gun_show.jpg');
+     }
   
+     #twenty-three {
+        background-image: url('/img/portfolio/illustration/trainspotting.jpg');
+        background-position: center left;
+     }
+
+     #twenty-four {
+        background-image: url('/img/portfolio/illustration/gridluv.jpg');
+     }
 
 /* Video Embed Code
 --------------------------------*/
@@ -267,7 +309,7 @@ footer input[type="submit"]{
 }
 .socials li{
     display: inline;
-    padding: 2rem;
+    padding-right: 2rem;
 }
 
 .socials li a {
@@ -302,7 +344,13 @@ nav {
 }
 
 footer h2{
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 
+}
+
+@media (max-width: 400px) {
+   .socials li a{
+   font-size: 4rem;
+  }
 }
