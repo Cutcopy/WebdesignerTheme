@@ -31,6 +31,7 @@ nav ul li {
 
 #nav-logo {
     width: 3rem;
+    height: 3rem;
     fill: #222;
     position: relative;
     top: 0.5rem;
@@ -81,6 +82,7 @@ nav ul li a{
 #hero-logo {
     fill: white;
     width: 60%;
+    height: auto;
     padding-top: 15rem;
 }
 
@@ -420,6 +422,9 @@ footer h2{
 }
 
 @media (max-width: 400px) {
+    footer h2{
+        padding-top: 3rem;
+    }
     .nav {
         padding: 1rem 0rem;
     }
