@@ -215,43 +215,69 @@ nav ul li a{
          right: 0px; 
          color: white;
      }
+     
+     #one {
+         background-image: url('/img/eic_bumper.png');
+     }
+     #two {
+         background-image: url('/img/kathy_stone.png');
+         background-size: cover;
+     }
+     #three {
+         background-image: url('/img/joe_blow.png');
+     }
+     #four {
+         background-image: url('/img/ken_pozek.png');     
+     }
+     #five {
+         background-image: url('/img/meighan.png');     
+     }
+    #six {
+        background-image: url('/img/meighan.png');
+    }
+    #seven {
+        background-image: url('/img/thrillz.png');
+    }
+    #eight {
+        background-image: url('/img/olea.png');
+    }
      #sixteen {
-        background-image: url('/img/portfolio/illustration/will_representation.jpg');
+        background-image: url('/img/portfolio/Illustration/Will_representation.jpg');
 
      }
     
     #seventeen {
-         background-image: url('/img/portfolio/illustration/Portal.jpg');
+         background-image: url('/img/portfolio/Illustration/Portal.jpg');
      }
 
     #eighteen {
-         background-image: url('/img/portfolio/illustration/Slender.jpg');
+         background-image: url('/img/portfolio/Illustration/Slender.jpg');
      }
 
     #nineteen {
-         background-image: url('/img/portfolio/illustration/ninja_turtle.jpg');
+         background-image: url('/img/portfolio/Illustration/ninja_turtle.jpg');
      }
 
      #twenty {
-         background-image: url('/img/portfolio/illustration/rainbow_hair.jpg');
+         background-image: url('/img/portfolio/Illustration/Rainbow_hair.jpg');
      }
 
     #twenty-one {
-         background-image: url('/img/portfolio/illustration/waves.jpg');
+         background-image: url('/img/portfolio/Illustration/waves.jpg');
          background-position: top right;
      }
 
      #twenty-two {
-        background-image: url('/img/portfolio/illustration/gun_show.jpg');
+        background-image: url('/img/portfolio/Illustration/gun_show.jpg');
      }
   
      #twenty-three {
-        background-image: url('/img/portfolio/illustration/trainspotting.jpg');
+        background-image: url('/img/portfolio/Illustration/Trainspotting.jpg');
         background-position: center left;
      }
 
      #twenty-four {
-        background-image: url('/img/portfolio/illustration/gridluv.jpg');
+        background-image: url('/img/portfolio/Illustration/gridluv.jpg');
      }
 
 /* Video Embed Code

@@ -57,7 +57,7 @@ $(".title").fitText(1.2, { minFontSize: '25px', maxFontSize: '150px' })
 // Fixed Nav
 
 	$(window).scroll(function(){
-		var scrollTop = 800;
+		var scrollTop = 750;
 		if($(window).scrollTop() >= scrollTop){
 			$('.nav').css({
 				background : '#323232',
