@@ -82,6 +82,7 @@ nav ul li a{
 #hero-logo {
     fill: white;
     width: 60%;
+    max-height: 30rem;
     height: auto;
     padding-top: 15rem;
 }
