@@ -429,7 +429,38 @@ footer h2{
     .nav {
         padding: 1rem 0rem;
     }
+    #hero-image{
+        padding-top: 15rem;
+    }
    .socials li a{
         font-size: 3rem;
   }
+}
+
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+      #hero-logo {
+        max-height: 20rem;
+        padding-top: 3rem;
+    }
+/* Larger than tablet */
+@media (min-width: 750px) {
+      #hero-logo {
+     
+    }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+      #hero-logo {
+        max-height: 50rem;
+    }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+    #hero-logo {
+        max-height: 70rem;
+    }
 }
